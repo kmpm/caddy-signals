@@ -1,0 +1,9 @@
+{
+    signals {
+        sighup "caddy reload"
+    }
+}
+
+:80 {
+    respond "foo"
+}
